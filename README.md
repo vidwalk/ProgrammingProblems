@@ -48,7 +48,7 @@ node = Node('root', Node('left', Node('left.left')), Node('right'))
 
 assert deserialize(serialize(node)).left.left.val == 'left.left'
 
-# 5/05/2015 - FindSmallestPositiveInteger
+# 5/05/2019 - FindSmallestPositiveInteger
 
 This problem was asked by Stripe.
 
@@ -57,3 +57,19 @@ Given an array of integers, find the first missing positive integer in linear ti
 For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should give 3.
 
 You can modify the input array in-place.
+
+# 6/05/2019 ConsCarCdr
+
+This problem was asked by Jane Street.
+
+cons(a, b) constructs a pair, and car(pair) and cdr(pair) returns the first and last element of that pair. For example, car(cons(3, 4)) returns 3, and cdr(cons(3, 4)) returns 4.
+
+Given this implementation of cons:
+
+def cons(a, b):
+    def pair(f):
+        return f(a, b)
+    return pair
+
+Implement car and cdr.
+
