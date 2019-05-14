@@ -150,3 +150,19 @@ For example, if N is 4, then there are 5 unique ways:
 
 
 What if, instead of being able to climb 1 or 2 steps at a time, you could climb any number from a set of positive integers X? For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
+
+# 14/05/2019 LongestSubstringWithKDistinct
+
+This problem was asked by Amazon.
+
+Given an integer k and a string s, find the length of the longest substring that contains at most k distinct characters.
+
+For example, given s = "abcba" and k = 2, the longest substring with k distinct characters is "bcb".
+
+# 14/05/2019 MonteCarloPI
+
+This problem was asked by Google.
+
+The area of a circle is defined as pr^2. Estimate p to 3 decimal places using a Monte Carlo method.
+
+Hint: The basic equation of a circle is x2 + y2 = r2.
